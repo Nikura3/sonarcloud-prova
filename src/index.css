@@ -4,7 +4,6 @@
 */
 
 html,
-body,
 div,
 span,
 applet,
@@ -87,8 +86,8 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
@@ -109,6 +108,12 @@ section {
 
 body {
   line-height: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 ol,
@@ -292,11 +297,7 @@ p {
   display: flex;
   width: 100%;
   align-items: center;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.3) 70.71%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) 70.71%),
     url("./images/data2.jpg") no-repeat center center;
   /*con linear ingredient doppio background, sfondo con img e non video*/
   background-size: cover;
@@ -381,11 +382,7 @@ p {
 .bg--cover {
   display: flex;
   padding: 100px 0;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.3) 70.71%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) 70.71%),
     url("./images/data3.jpg") no-repeat center center;
   /*con linear ingredient doppio background*/
   background-size: cover;
@@ -456,44 +453,28 @@ p {
 }
 
 .scattern {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.3) 70.71%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) 70.71%),
     url("./images/scattern.png") no-repeat center center;
   /*con linear ingredient doppio background*/
   background-size: cover;
 }
 
 .parallel {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.3) 70.71%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) 70.71%),
     url("./images/parallel.jpg") no-repeat center center;
   /*con linear ingredient doppio background*/
   background-size: cover;
 }
 
 .fdg {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.3) 70.71%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) 70.71%),
     url("./images/fdg.png") no-repeat center center;
   /*con linear ingredient doppio background*/
   background-size: cover;
 }
 
 .sankey {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 0, 0.3) 70.71%
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) 70.71%),
     url("./images/sankey.png") no-repeat center center;
   /*con linear ingredient doppio background*/
   background-size: cover;
@@ -689,8 +670,7 @@ div.bottone {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-  box-shadow: 2px 2px 5px #dedede, -2px -2px 5px #dedede, 2px -2px 5px #dedede,
-    -2px 2px 5px #dedede;
+  box-shadow: 2px 2px 5px #dedede, -2px -2px 5px #dedede, 2px -2px 5px #dedede, -2px 2px 5px #dedede;
   position: relative;
 }
 
@@ -702,8 +682,7 @@ div.bottone {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-  box-shadow: 2px 2px 5px #dedede, -2px -2px 5px #dedede, 2px -2px 5px #dedede,
-    -2px 2px 5px #dedede;
+  box-shadow: 2px 2px 5px #dedede, -2px -2px 5px #dedede, 2px -2px 5px #dedede, -2px 2px 5px #dedede;
   position: relative;
 }
 
@@ -715,8 +694,7 @@ div.bottone {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-  box-shadow: 2px 2px 5px #dedede, -2px -2px 5px #dedede, 2px -2px 5px #dedede,
-    -2px 2px 5px #dedede;
+  box-shadow: 2px 2px 5px #dedede, -2px -2px 5px #dedede, 2px -2px 5px #dedede, -2px 2px 5px #dedede;
   position: relative;
 }
 
@@ -728,8 +706,7 @@ div.bottone {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-  box-shadow: 2px 2px 5px #dedede, -2px -2px 5px #dedede, 2px -2px 5px #dedede,
-    -2px 2px 5px #dedede;
+  box-shadow: 2px 2px 5px #dedede, -2px -2px 5px #dedede, 2px -2px 5px #dedede, -2px 2px 5px #dedede;
   position: relative;
 }
 
