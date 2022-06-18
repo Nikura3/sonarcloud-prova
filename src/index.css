@@ -107,12 +107,12 @@ section {
 }
 
 body {
-  line-height: 1;
   margin: 0;
   padding: 0;
   border: 0;
   font: inherit;
   font-size: 100%;
+  line-height: 1;
   vertical-align: baseline;
 }
 
