@@ -7,7 +7,7 @@ class formVM {
   dispatch = useDispatch();
   send(text) {
     /*-----------PARSING DATA ORA-----------------*/
-    var parseDate = d3.timeParse("%Y-%m-%d %H:%M:%S.%L");
+    let parseDate = d3.timeParse("%Y-%m-%d %H:%M:%S.%L");
 
     const parsed = d3.csvParse(text, (row) => {
       let date = parseDate(row.data_evento) || new Date(0);
@@ -77,9 +77,7 @@ class formVM {
     }
 
     /*----------------INSERITO DATI NELLO STORE ------------------*/
-    this.dispatch(
-      dimActions.addDimension({ dimension, isSelected, isNumeric })
-    );
+    this.dispatch(dimActions.addDimension({ dimension, isSelected, isNumeric }));
     this.dispatch(dataActions.addData(sample));
   }
 
